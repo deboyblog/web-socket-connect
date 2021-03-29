@@ -1,6 +1,6 @@
 {
-  "name": "web-socket-connect",
-  "version": "0.0.4",
+  "name": "ws-connect",
+  "version": "0.0.5",
   "description": "浏览器客户端 WebSocket 连接订阅事件管理库",
   "main": "./src/index.ts",
   "dependencies": {},
@@ -16,5 +16,5 @@
   ],
   "author": "shixianqin",
   "license": "MIT",
-  "homepage": "https://github.com/shixianqin/web-socket-connect"
+  "homepage": "https://github.com/deboyblog/web-socket-connect"
 }
