@@ -192,7 +192,9 @@ class WebSocketConnect<T extends object = { [key: string]: object }> {
 
         // 创建实例
         const socket = await this.createSocket();
-
+        if (this.options.binaryType) {
+            socket.binaryType = this.options.binaryType
+        }
         // onopen 事件监听器
         const onOpen = (evt: Event) => {
             const { dataSendStorage } = this;

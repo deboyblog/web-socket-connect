@@ -3,6 +3,8 @@ export interface WebSocketConnectOptions<T> {
 
     protocols?: string | string[] | (() => Promise<string | string[]>);
 
+    binaryType?: BinaryType
+
     transformResponse?(evt: MessageEvent): Response;
 
     recognizer?(response: Response): keyof T | void;

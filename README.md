@@ -22,6 +22,9 @@ const wsc = new WebSocketConnect({
  
     // protocols 同时也可以是一个函数，返回 promise，类似 url
     protocols: ['a1', 'b2'],
+
+    // 返回websocket连接所传输二进制数据的类型 默认 blob 可选 "arraybuffer" | "blob"
+    binaryType: 'arrayBuffer',
     
     // 处理响应后的数据
     transformResponse(evt: MessageEvent) {
