@@ -1,6 +1,6 @@
 {
   "name": "ws-connect",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "浏览器客户端 WebSocket 连接订阅事件管理库",
   "main": "./src/index.ts",
   "dependencies": {},
